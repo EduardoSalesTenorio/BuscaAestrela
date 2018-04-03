@@ -19,7 +19,7 @@ public class BuscaAestrela {
         Origem = JOptionPane.showInputDialog(null, "Onde vc esta?");
         Destino = JOptionPane.showInputDialog(null, "Onde vc quer ir?");
 
-        if (Origem != "E1" || Origem != "E2" || Origem != "E3" || Origem != "E4") {
+        if (Origem != "E1" || Origem != "E2" || Origem != "E3" || Origem != "E4" || Origem != "E5" || Origem != "E6" || Origem != "E7" || Origem != "E8" || Origem != "E9" || Origem != "E10" || Origem != "E11") {
             JOptionPane.showMessageDialog(null, "Entrada Invalida");
         }
     }
