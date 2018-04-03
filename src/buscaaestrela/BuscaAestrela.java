@@ -20,14 +20,14 @@ public class BuscaAestrela {
     public void start() {
         Origem = JOptionPane.showInputDialog(null, "Onde vc esta?");
 
-        while (Origem != "E1" && Origem != "E2" && Origem != "E3" && Origem != "E4" && Origem != "E5" && Origem != "E6" && Origem != "E7" && Origem != "E8" && Origem != "E9" && Origem != "E10" && Origem != "E11") {
+        while (!"E1".equals(Origem) && !"E2".equals(Origem) && !"E3".equals(Origem) && !"E4".equals(Origem) && !"E5".equals(Origem) && !"E6".equals(Origem) && !"E7".equals(Origem) && !"E8".equals(Origem) && !"E9".equals(Origem) && !"E10".equals(Origem) && !"E11".equals(Origem) && !"E12".equals(Origem) && !"E13".equals(Origem) && !"E14".equals(Origem)) {
             JOptionPane.showMessageDialog(null, "Origem Invalida");
             Origem = JOptionPane.showInputDialog(null, "Digite Novamente Onde vc Esta?");
         }
 
         Destino = JOptionPane.showInputDialog(null, "Onde vc quer ir?");
 
-        while (Destino != "E1" && Destino != "E2" && Destino != "E3" && Destino != "E4" && Destino != "E5" && Destino != "E6" && Destino != "E7" && Destino != "E8" && Destino != "E9" && Destino != "E10" && Destino != "E11") {
+        while (!"E1".equals(Destino) && !"E2".equals(Destino) && !"E3".equals(Destino) && !"E4".equals(Destino) && !"E5".equals(Destino) && !"E6".equals(Destino) && !"E7".equals(Destino) && !"E8".equals(Destino) && !"E9".equals(Destino) && !"E10".equals(Destino) && !"E11".equals(Destino) && !"E12".equals(Destino) && !"E13".equals(Destino) && !"E14".equals(Destino)) {
             JOptionPane.showMessageDialog(null, "Destino Invalida");
             Destino = JOptionPane.showInputDialog(null, "Onde vc quer ir?");
         }
@@ -73,7 +73,19 @@ public class BuscaAestrela {
 
     }
 
-    public void eonze() {
+    public void eOnze() {
+
+    }
+
+    public void eDoze() {
+
+    }
+
+    public void eTreze() {
+
+    }
+
+    public void eQuatoze() {
 
     }
 }
