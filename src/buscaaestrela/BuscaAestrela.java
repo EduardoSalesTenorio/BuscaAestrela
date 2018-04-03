@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package buscaaestrela;
 
-/**
- *
- * @author Eduardo Sales
- */
+import javax.swing.JOptionPane;
+
 public class BuscaAestrela {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        String Origem;
+        String Destino;
+
+        Origem = JOptionPane.showInputDialog(null, "Onde vc esta?");
+        Destino = JOptionPane.showInputDialog(null, "Onde vc quer ir?");
+
     }
-    
+
 }
