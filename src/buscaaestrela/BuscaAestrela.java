@@ -7,7 +7,7 @@ public class BuscaAestrela {
     String Origem;
     String Destino;
 
-    int SomaTotal = 0;
+    double SomaTotal = 0;
 
     public static void main(String[] args) {
 
@@ -31,14 +31,72 @@ public class BuscaAestrela {
             JOptionPane.showMessageDialog(null, "Destino Invalida");
             Destino = JOptionPane.showInputDialog(null, "Onde vc quer ir?");
         }
+
+        chamarMetodoOrigem();
+    }
+
+    public void chamarMetodoOrigem() {
+
+        if ("E1".equals(Origem)) {
+            eUm();
+        }
+        if ("E2".equals(Origem)) {
+            eDois();
+        }
+        if ("E3".equals(Origem)) {
+            eTres();
+        }
+        if ("E4".equals(Origem)) {
+            eQuatro();
+        }
+        if ("E5".equals(Origem)) {
+            eCinco();
+        }
+        if ("E6".equals(Origem)) {
+            eSeis();
+        }
+        if ("E7".equals(Origem)) {
+            eSete();
+        }
+        if ("E8".equals(Origem)) {
+            eOito();
+        }
+        if ("E9".equals(Origem)) {
+            eNove();
+        }
+        if ("E10".equals(Origem)) {
+            eDez();
+        }
+        if ("E11".equals(Origem)) {
+            eOnze();
+        }
+        if ("E12".equals(Origem)) {
+            eDoze();
+        }
+        if ("E13".equals(Origem)) {
+            eTreze();
+        }
+        if ("E14".equals(Origem)) {
+            eQuatoze();
+        }
     }
 
     public void eUm() {
-
+        SomaTotal += 20;
+        eDois();
     }
 
     public void eDois() {
-
+    double e3 = 8.5 + 8.5;
+    
+    
+        if ("E2".equals(Destino)) {
+            JOptionPane.showMessageDialog(null, "Encontrou");
+        } else if (Destino == "d") {
+            JOptionPane.showMessageDialog(null, "Erro");
+        } else {
+            
+        }
     }
 
     public void eTres() {
@@ -65,7 +123,7 @@ public class BuscaAestrela {
 
     }
 
-    public void enove() {
+    public void eNove() {
 
     }
 
